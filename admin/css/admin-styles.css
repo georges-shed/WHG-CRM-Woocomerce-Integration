@@ -1,0 +1,330 @@
+/* CSS for Tabs and Content */
+.ghl-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ghl-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 35px;
+}
+.main-con{
+    margin: 0px 0px 0 -20px;
+}
+.ghl-tabs {
+    width: 200px; /* Adjust the width as needed */
+    padding: 15px;
+    border-right: 1px solid #ddd;
+}
+
+.nav-tab-wrapper-vertical {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-tab-wrapper-vertical a {
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    border-left: 3px solid transparent;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s, border-left-color 0.3s;
+    width: 150px;
+}
+
+.nav-tab-wrapper-vertical a:hover,
+.nav-tab-wrapper-vertical a.nav-tab-active {
+    background-color: #e9e9e9;
+    border-left-color: #f6861e; /* Adjust the active tab color */
+}
+
+/* Content area styles */
+.tab-content {
+    flex-grow: 1;
+    padding: 15px;
+    margin-left: 30px;
+}
+
+
+/* CSS for Header */
+.ghl-header {
+    background-color: #0073aa; /* Your header background color */
+    color: #fff; /* Text color for the header */
+    padding: 3px 13px;
+    text-align: center;
+}
+
+.ghl-header h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+
+
+/* CSS for Logo */
+.ghl-header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 20px; 
+}
+
+.logo img {
+    max-width: 85px; 
+    height: auto;
+}
+
+
+
+
+.woocommerce_options_panel .ghlconnect-tab-field {
+    padding: 5px 20px 5px 162px!important;
+    margin: 9px 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+#woocommerce-product-data ul.wc-tabs li.ghlconnect-tab_tab a:before {
+
+    background-position: center;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#ghlconnect-tab .select2-container {
+    display: block;
+    float: unset;
+    max-width: 50%;
+}
+#ib-ghlconnect .button{
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.reload-btn{
+    margin-left: 162px !important;
+}
+
+span.tag {
+    display: inline-block;
+    border: 1px solid #e1e1e1;
+    padding: 5px 8px;
+    margin-bottom: 3px;
+    margin-right: 2px;
+    background: #fafafa;
+}
+/* Button Styles */
+
+a.ghl_connect.button {
+    /* width: 15%; */
+    padding: 10px -1px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 3px;
+    border: 2px solid #f6861e;
+    color: #fff;
+    background-color: #f6861e;
+}
+.ghl_connect button:hover{
+    background-color: transparent;
+    color: #f6861e;
+    border: 2px solid #f6861e;
+}
+
+button.ghl_connect.button {
+    /* width: 15%; */
+    padding: 10px -1px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 3px;
+    border: 2px solid #f6861e;
+    color: #fff;
+    background-color: #f6861e;
+}
+
+button.ghl_connect_sync.button {
+    /* width: 100%;
+    padding: 10px -1px; */
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 3px;
+    border: 2px solid #f6861e;
+    color: #fff;
+    background-color: #f6861e;
+}
+a.ghl_connect_reload.button {
+       display: inline-block;
+       text-transform: uppercase;
+       font-weight: 500;
+       letter-spacing: 1px;
+       cursor: pointer;
+       transition: all 0.3s ease-in-out;
+       border-radius: 3px;
+       border: 2px solid #f6861e;
+       color: #fff;
+       background-color: #f6861e;
+       margin-left: 163px;
+
+}
+.button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Description Styles */
+.description {
+    margin-bottom: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+/* New CSS Start */
+
+.features-table table, .features-table td, .features-table th {  
+    border: 1px solid #b7b4b4;
+  }
+  
+  .features-table table tbody tr td:last-child {
+      background-color: #13294b;
+  }
+  
+  .features-table table {
+    border-collapse: collapse;
+    width: 64%;
+  }
+  
+  .features-table th, .features-table td {
+    padding: 12px 15px;
+  }
+  
+  .features-table {
+    width: 68%;
+  }
+  
+  .features-table h3 {
+    margin: 50px 0 15px 0;
+    font-weight: 600;
+  }
+  
+  .features-table table tbody tr:nth-child(odd) {
+    background-color: #f6861e45;
+  }
+  
+  .features-table table tbody tr:first-child {
+    background: #f6861e;
+  }
+  
+  .features-table table tbody tr {
+    color: #2d2d2d;
+    font-size: 15px;
+  }
+  
+  .features-table table tbody tr th {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .features-table table tbody tr th:last-child {
+      background-color: #13294b;
+  }
+  
+  .features-table table tbody tr td {
+    text-align: center;
+  }
+  
+  .features-table td img {
+      width: 32px;
+  }
+
+  .upgrade-section {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    width: 64%;
+    column-gap: 35px;
+    border: 1px solid #2d2d2d;
+    padding: 0 10px;
+  }
+  
+  .upgrade-section p {
+    font-size: 14px;
+  }
+  
+  .upgrade-section p span {
+    font-weight: 600;
+  }
+  
+  .upgrade-section p a {
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 23px;
+  }
+  .text-section {
+    width: 64%;
+  }
+  
+  .text-section p {
+    font-size: 15px;
+  }
+
+  .main-upgrade {
+    position: absolute;
+    margin-top: -52px;
+}
+.utp-button {
+    display: inline-block;
+    background: #2d2d2d;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+  
+  .utp-button:hover {
+    color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,.4);
+  }
+
+  @media (max-width: 1200px) {
+    .utp-button {
+    line-height: 17px;
+}
+}
+
+/* notice message */
+.notice.notice-error.wooerror {
+  margin-left: 234px;
+  margin-top: 125px;
+  position: absolute;
+  color: black;
+}
+
