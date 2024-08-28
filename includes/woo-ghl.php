@@ -140,17 +140,15 @@ function ghlconnect_create_ghl_opportunity( $order, $contactId, $locationId ) {
     // Define the necessary IDs
     $pipelineId = 'UAYLwD4EEewOTHdn5d7t'; // Default pipeline ID
     $pipelineStageId = '72c55e28-5624-4885-a02f-210f065dace0'; // Default stage ID
-
-    // Check if the order status is "wc-ywraq-pending"
+    $source = 'Website Order';
+    
     if ( $order->get_status() === 'ywraq-pending' ) {
-        // Use a different pipeline and stage for "ywraq-pending"
         $pipelineId = 'VC0ypLig0hdqvLVqyBzG'; // Replace with your actual pipeline ID for ywraq-pending
         $pipelineStageId = 'ec61d8ff-63bd-48f4-b6bc-15171d9e62b4'; // Replace with your actual stage ID for ywraq-pending
+        $source = 'Website Quote';
     }
 
-    // Set the source as "Website Order"
-    $source = 'Website Order';
-
+    // Add logic to create the opportunity data
     $opportunity_data = [
         'pipelineId'      => $pipelineId,
         'locationId'      => $locationId,
@@ -160,10 +158,27 @@ function ghlconnect_create_ghl_opportunity( $order, $contactId, $locationId ) {
         'source'          => $source,
         'contactId'       => $contactId,
         'monetaryValue'   => $order->get_total(),
+        'customFields'    => [
+            [
+                'id'    => 'Vvc20NE8bG95bO0r5wQl', // Custom field ID
+                'type'  => 'array',
+                'fieldValueFiles' => [
+                    [
+                        'url'   => 'https://msgsndr-private.storage.googleapis.com/location/CHKDrHHKzEg512t9UFk9/custom-Field/Vvc20NE8bG95bO0r5wQl/your-file.pdf', // URL to the PDF
+                        'meta'  => [
+                            'size'      => 91201, // Size of the file
+                            'name'      => 'your-file.pdf', // File name
+                            'mimetype'   => 'application/pdf' // MIME type
+                        ]
+                    ]
+                ]
+            ]
+        ]
     ];
 
     ghlconnect_send_opportunity_to_ghl( $opportunity_data );
 }
+
 
 function ghlconnect_send_opportunity_to_ghl( $opportunity_data ) {
     $api_url = 'https://services.leadconnectorhq.com/opportunities/';
