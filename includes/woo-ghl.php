@@ -140,12 +140,22 @@ function ghlconnect_create_ghl_opportunity( $order, $contactId, $locationId ) {
     // Define the necessary IDs
     $pipelineId = 'UAYLwD4EEewOTHdn5d7t'; // Default pipeline ID
     $pipelineStageId = '72c55e28-5624-4885-a02f-210f065dace0'; // Default stage ID
-    $source = 'Website Order';
+    $base_url = site_url(); // Get the base URL of the WordPress site
+$relative_path = '/wp-content/uploads/ywpi-pdf-invoice/Invoices/Invoice_' . $order->get_order_number() . '.pdf';
+$source = $base_url . $relative_path;
+
+
+
+
     
     if ( $order->get_status() === 'ywraq-pending' ) {
         $pipelineId = 'VC0ypLig0hdqvLVqyBzG'; // Replace with your actual pipeline ID for ywraq-pending
         $pipelineStageId = 'ec61d8ff-63bd-48f4-b6bc-15171d9e62b4'; // Replace with your actual stage ID for ywraq-pending
-        $source = 'Website Quote';
+        $base_url = site_url(); // Get the base URL of the WordPress site
+        $current_month = date('m'); // Get the current month in two-digit format
+        $relative_path = '/wp-content/uploads/yith_ywraq/' . date('Y') . '/' . $current_month . '/quote_' . $order->get_order_number() . '.pdf';
+        $source = $base_url . $relative_path;
+        
     }
 
     // Add logic to create the opportunity data
