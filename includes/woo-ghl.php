@@ -141,13 +141,10 @@ function ghlconnect_create_ghl_opportunity( $order, $contactId, $locationId ) {
     $pipelineId = 'UAYLwD4EEewOTHdn5d7t'; // Default pipeline ID
     $pipelineStageId = '72c55e28-5624-4885-a02f-210f065dace0'; // Default stage ID
     $base_url = site_url(); // Get the base URL of the WordPress site
-$relative_path = '/wp-content/uploads/ywpi-pdf-invoice/Invoices/Invoice_' . $order->get_order_number() . '.pdf';
-$source = $base_url . $relative_path;
+    $relative_path = '/wp-content/uploads/ywpi-pdf-invoice/Invoices/Invoice_' . $order->get_order_number() . '.pdf';
+    $source = $base_url . $relative_path;
 
-
-
-
-    
+    // Check if the order status is 'ywraq-pending'
     if ( $order->get_status() === 'ywraq-pending' ) {
         $pipelineId = 'VC0ypLig0hdqvLVqyBzG'; // Replace with your actual pipeline ID for ywraq-pending
         $pipelineStageId = 'ec61d8ff-63bd-48f4-b6bc-15171d9e62b4'; // Replace with your actual stage ID for ywraq-pending
@@ -155,15 +152,16 @@ $source = $base_url . $relative_path;
         $current_month = date('m'); // Get the current month in two-digit format
         $relative_path = '/wp-content/uploads/yith_ywraq/' . date('Y') . '/' . $current_month . '/quote_' . $order->get_order_number() . '.pdf';
         $source = $base_url . $relative_path;
-        
+        $name = 'Quote ID: ' . $order->get_order_number() . ' (' . date('d/m/y') . ')';
+    } else {
+        $name = 'Order ID: ' . $order->get_order_number() . ' (' . date('d/m/y') . ')';
     }
 
     // Add logic to create the opportunity data
     $opportunity_data = [
         'pipelineId'      => $pipelineId,
         'locationId'      => $locationId,
-        'name'            => 'Order ID: ' . $order->get_order_number() . ' (' . date('d/m/y') . ')',
-    'pipelineStageId' => $pipelineStageId,
+        'name'            => $name,
         'pipelineStageId' => $pipelineStageId,
         'status'          => 'open',
         'source'          => $source,
@@ -179,7 +177,7 @@ $source = $base_url . $relative_path;
                         'meta'  => [
                             'size'      => 91201, // Size of the file
                             'name'      => 'your-file.pdf', // File name
-                            'mimetype'   => 'application/pdf' // MIME type
+                            'mimetype'  => 'application/pdf' // MIME type
                         ]
                     ]
                 ]
