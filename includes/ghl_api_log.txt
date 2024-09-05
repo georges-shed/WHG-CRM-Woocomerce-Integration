@@ -1,0 +1,659 @@
+2024-09-04 09:11:51 - Order ID: 286375
+Response: 
+
+2024-09-04 09:27:44 - GHL Opportunity Created: Array
+(
+    [opportunity] => Array
+        (
+            [id] => hVzhuqnPLjXx2iAPwzcT
+            [name] => Order ID: 286377 (04/09/24)
+            [monetaryValue] => 9099
+            [pipelineId] => UAYLwD4EEewOTHdn5d7t
+            [pipelineStageId] => 72c55e28-5624-4885-a02f-210f065dace0
+            [status] => open
+            [source] => https://rightair.local/wp-content/uploads/ywpi-pdf-invoice/Invoices/Invoice_286377.pdf
+            [lastStatusChangeAt] => 2024-09-04T09:27:44.480Z
+            [lastStageChangeAt] => 2024-09-04T09:27:44.480Z
+            [createdAt] => 2024-09-04T09:27:44.479Z
+            [updatedAt] => 2024-09-04T09:27:44.479Z
+            [contactId] => ChDcifKezCMpsOY59UKQ
+            [isAttribute] => 
+            [internalSource] => Array
+                (
+                    [type] => CREATED
+                    [id] => 66c9b7a5933ff4a8ff647640
+                    [apiVersion] => 2021-07-28
+                    [channel] => OAUTH
+                    [source] => INTEGRATION
+                )
+
+            [locationId] => CHKDrHHKzEg512t9UFk9
+            [lastActionDate] => 2024-09-04T09:27:44.480Z
+            [followers] => Array
+                (
+                )
+
+            [contact] => Array
+                (
+                    [id] => ChDcifKezCMpsOY59UKQ
+                    [name] => Talha Shahid
+                    [companyName] => ivt
+                    [email] => talhashahid978@gmail.com
+                    [phone] => +27954897554867
+                    [tags] => Array
+                        (
+                        )
+
+                    [followers] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [traceId] => 508b9618-a551-4f6e-b115-65e7c3910ab3
+)
+
+2024-09-04 09:32:35 - GHL Opportunity Created: Array
+(
+    [opportunity] => Array
+        (
+            [id] => zOHI1WBmuEGDCTEtnvVD
+            [name] => Order ID: 286378 (04/09/24)
+            [monetaryValue] => 6399
+            [pipelineId] => UAYLwD4EEewOTHdn5d7t
+            [pipelineStageId] => 72c55e28-5624-4885-a02f-210f065dace0
+            [status] => open
+            [source] => https://rightair.local/wp-content/uploads/ywpi-pdf-invoice/Invoices/Invoice_286378.pdf
+            [lastStatusChangeAt] => 2024-09-04T09:32:36.006Z
+            [lastStageChangeAt] => 2024-09-04T09:32:36.006Z
+            [createdAt] => 2024-09-04T09:32:36.006Z
+            [updatedAt] => 2024-09-04T09:32:36.006Z
+            [contactId] => ChDcifKezCMpsOY59UKQ
+            [isAttribute] => 
+            [internalSource] => Array
+                (
+                    [type] => CREATED
+                    [id] => 66c9b7a5933ff4a8ff647640
+                    [apiVersion] => 2021-07-28
+                    [channel] => OAUTH
+                    [source] => INTEGRATION
+                )
+
+            [locationId] => CHKDrHHKzEg512t9UFk9
+            [lastActionDate] => 2024-09-04T09:32:36.006Z
+            [followers] => Array
+                (
+                )
+
+            [contact] => Array
+                (
+                    [id] => ChDcifKezCMpsOY59UKQ
+                    [name] => Talha Shahid
+                    [companyName] => ivt
+                    [email] => talhashahid978@gmail.com
+                    [phone] => +273210323
+                    [tags] => Array
+                        (
+                        )
+
+                    [followers] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [traceId] => 3e37ba8c-61a7-4bed-b762-a95a8c7fd3f8
+)
+
+2024-09-04 09:36:21 - GHL Opportunity Created: Array
+(
+    [opportunity] => Array
+        (
+            [id] => 0IGubhgQvxnwYP2no3yS
+            [name] => Quote ID: 286379 (04/09/24)
+            [monetaryValue] => 2469
+            [pipelineId] => VC0ypLig0hdqvLVqyBzG
+            [pipelineStageId] => ec61d8ff-63bd-48f4-b6bc-15171d9e62b4
+            [status] => open
+            [source] => https://rightair.local/wp-content/uploads/yith_ywraq/2024/09/quote_286379.pdf
+            [lastStatusChangeAt] => 2024-09-04T09:36:22.222Z
+            [lastStageChangeAt] => 2024-09-04T09:36:22.222Z
+            [createdAt] => 2024-09-04T09:36:22.222Z
+            [updatedAt] => 2024-09-04T09:36:22.222Z
+            [contactId] => ChDcifKezCMpsOY59UKQ
+            [isAttribute] => 
+            [internalSource] => Array
+                (
+                    [type] => CREATED
+                    [id] => 66c9b7a5933ff4a8ff647640
+                    [apiVersion] => 2021-07-28
+                    [channel] => OAUTH
+                    [source] => INTEGRATION
+                )
+
+            [locationId] => CHKDrHHKzEg512t9UFk9
+            [lastActionDate] => 2024-09-04T09:36:22.222Z
+            [followers] => Array
+                (
+                )
+
+            [contact] => Array
+                (
+                    [id] => ChDcifKezCMpsOY59UKQ
+                    [name] => Talha Shahid
+                    [companyName] => ivt
+                    [email] => talhashahid978@gmail.com
+                    [phone] => +273435465
+                    [tags] => Array
+                        (
+                        )
+
+                    [followers] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [traceId] => 77c460ed-e386-4566-8f25-9a3fca7a556d
+)
+
+2024-09-04 10:12:16 - GHL Opportunity Created: Array
+(
+    [opportunity] => Array
+        (
+            [id] => m65qXcHcGPVYYYERNE4W
+            [name] => Quote ID: 286380 (04/09/24)
+            [monetaryValue] => 10199
+            [pipelineId] => VC0ypLig0hdqvLVqyBzG
+            [pipelineStageId] => ec61d8ff-63bd-48f4-b6bc-15171d9e62b4
+            [status] => open
+            [source] => https://rightair.local/wp-content/uploads/yith_ywraq/2024/09/quote_286380.pdf
+            [lastStatusChangeAt] => 2024-09-04T10:12:16.921Z
+            [lastStageChangeAt] => 2024-09-04T10:12:16.921Z
+            [createdAt] => 2024-09-04T10:12:16.921Z
+            [updatedAt] => 2024-09-04T10:12:16.921Z
+            [contactId] => ChDcifKezCMpsOY59UKQ
+            [isAttribute] => 
+            [internalSource] => Array
+                (
+                    [type] => CREATED
+                    [id] => 66c9b7a5933ff4a8ff647640
+                    [apiVersion] => 2021-07-28
+                    [channel] => OAUTH
+                    [source] => INTEGRATION
+                )
+
+            [locationId] => CHKDrHHKzEg512t9UFk9
+            [lastActionDate] => 2024-09-04T10:12:16.921Z
+            [followers] => Array
+                (
+                )
+
+            [contact] => Array
+                (
+                    [id] => ChDcifKezCMpsOY59UKQ
+                    [name] => Talha Shahid
+                    [companyName] => ivt
+                    [email] => talhashahid978@gmail.com
+                    [phone] => +273435465
+                    [tags] => Array
+                        (
+                        )
+
+                    [followers] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [traceId] => 35ba346a-647f-432f-b663-16b69cbac1b3
+)
+
+2024-09-04 11:48:35 - GHL Opportunity Created: Array
+(
+    [opportunity] => Array
+        (
+            [id] => 4iKcJzCKuNFYNQcP93qO
+            [name] => Order ID: 286381 (04/09/24)
+            [monetaryValue] => 10199
+            [pipelineId] => UAYLwD4EEewOTHdn5d7t
+            [pipelineStageId] => 72c55e28-5624-4885-a02f-210f065dace0
+            [status] => open
+            [source] => https://rightair.local/wp-content/uploads/ywpi-pdf-invoice/Invoices/Invoice_286381.pdf
+            [lastStatusChangeAt] => 2024-09-04T11:48:35.782Z
+            [lastStageChangeAt] => 2024-09-04T11:48:35.782Z
+            [createdAt] => 2024-09-04T11:48:35.782Z
+            [updatedAt] => 2024-09-04T11:48:35.782Z
+            [contactId] => vDOqNEPbfnGO014uhMji
+            [isAttribute] => 
+            [internalSource] => Array
+                (
+                    [type] => CREATED
+                    [id] => 66c9b7a5933ff4a8ff647640
+                    [apiVersion] => 2021-07-28
+                    [channel] => OAUTH
+                    [source] => INTEGRATION
+                )
+
+            [locationId] => CHKDrHHKzEg512t9UFk9
+            [lastActionDate] => 2024-09-04T11:48:35.782Z
+            [followers] => Array
+                (
+                )
+
+            [contact] => Array
+                (
+                    [id] => vDOqNEPbfnGO014uhMji
+                    [name] => Michael test
+                    [companyName] => ivt
+                    [email] => mick123@gmail.com
+                    [phone] => +277867856
+                    [tags] => Array
+                        (
+                        )
+
+                    [followers] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [traceId] => 97f13f22-a202-4ee3-b702-527c672517f6
+)
+
+2024-09-05 12:45:00 - GHL Opportunity Created: Array
+(
+    [message] => The opportunity contact is deleted
+    [error] => Bad Request
+    [statusCode] => 400
+    [traceId] => 30f49620-bec9-446e-b87e-94d38e115721
+)
+
+2024-09-05 12:58:42 - GHL Opportunity Created: Array
+(
+    [opportunity] => Array
+        (
+            [id] => Hx85jghnwGigzUQRPaBA
+            [name] => Quote ID: 286383 (05/09/24)
+            [monetaryValue] => 9099
+            [pipelineId] => VC0ypLig0hdqvLVqyBzG
+            [pipelineStageId] => ec61d8ff-63bd-48f4-b6bc-15171d9e62b4
+            [status] => open
+            [source] => https://rightair.local/wp-content/uploads/yith_ywraq/2024/09/quote_286383.pdf
+            [lastStatusChangeAt] => 2024-09-05T12:58:42.075Z
+            [lastStageChangeAt] => 2024-09-05T12:58:42.075Z
+            [createdAt] => 2024-09-05T12:58:42.075Z
+            [updatedAt] => 2024-09-05T12:58:42.075Z
+            [contactId] => 66xwdAAK8dTWmFspTMII
+            [isAttribute] => 
+            [internalSource] => Array
+                (
+                    [type] => CREATED
+                    [id] => 66c9b7a5933ff4a8ff647640
+                    [apiVersion] => 2021-07-28
+                    [channel] => OAUTH
+                    [source] => INTEGRATION
+                )
+
+            [locationId] => CHKDrHHKzEg512t9UFk9
+            [lastActionDate] => 2024-09-05T12:58:42.075Z
+            [followers] => Array
+                (
+                )
+
+            [contact] => Array
+                (
+                    [id] => 66xwdAAK8dTWmFspTMII
+                    [name] => Talha Shahid
+                    [companyName] => Talha Solution
+                    [email] => talhashahid978@gmail.com
+                    [phone] => +27301464565
+                    [tags] => Array
+                        (
+                        )
+
+                    [followers] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [traceId] => d3e069fd-bc5e-4360-b76e-b848ec8cd8e7
+)
+
+2024-09-05 13:01:39 - GHL Opportunity Created: Array
+(
+    [opportunity] => Array
+        (
+            [id] => ea3zkPIu2Uh8vQsvNd24
+            [name] => Quote ID: 286384 (05/09/24)
+            [monetaryValue] => 10199
+            [pipelineId] => VC0ypLig0hdqvLVqyBzG
+            [pipelineStageId] => ec61d8ff-63bd-48f4-b6bc-15171d9e62b4
+            [status] => open
+            [source] => https://rightair.local/wp-content/uploads/yith_ywraq/2024/09/quote_286384.pdf
+            [lastStatusChangeAt] => 2024-09-05T13:01:39.043Z
+            [lastStageChangeAt] => 2024-09-05T13:01:39.043Z
+            [createdAt] => 2024-09-05T13:01:39.043Z
+            [updatedAt] => 2024-09-05T13:01:39.043Z
+            [contactId] => 66xwdAAK8dTWmFspTMII
+            [isAttribute] => 
+            [internalSource] => Array
+                (
+                    [type] => CREATED
+                    [id] => 66c9b7a5933ff4a8ff647640
+                    [apiVersion] => 2021-07-28
+                    [channel] => OAUTH
+                    [source] => INTEGRATION
+                )
+
+            [locationId] => CHKDrHHKzEg512t9UFk9
+            [lastActionDate] => 2024-09-05T13:01:39.043Z
+            [followers] => Array
+                (
+                )
+
+            [contact] => Array
+                (
+                    [id] => 66xwdAAK8dTWmFspTMII
+                    [name] => Talha Shahid
+                    [companyName] => Talha Solution
+                    [email] => talhashahid978@gmail.com
+                    [phone] => +27301464565
+                    [tags] => Array
+                        (
+                        )
+
+                    [followers] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [traceId] => 0f9efded-9385-4913-8900-ed2d147583f1
+)
+
+2024-09-05 13:10:35 - GHL Opportunity Created: Array
+(
+    [opportunity] => Array
+        (
+            [id] => p6Pzbxa2pbqz4gMR0tsR
+            [name] => Quote ID: 286386 (05/09/24)
+            [monetaryValue] => 10199
+            [pipelineId] => VC0ypLig0hdqvLVqyBzG
+            [pipelineStageId] => ec61d8ff-63bd-48f4-b6bc-15171d9e62b4
+            [status] => open
+            [source] => https://rightair.local/wp-content/uploads/yith_ywraq/2024/09/quote_286386.pdf
+            [lastStatusChangeAt] => 2024-09-05T13:10:35.261Z
+            [lastStageChangeAt] => 2024-09-05T13:10:35.261Z
+            [createdAt] => 2024-09-05T13:10:35.261Z
+            [updatedAt] => 2024-09-05T13:10:35.261Z
+            [contactId] => B1TKXSRuSbVGmKymjLNc
+            [isAttribute] => 
+            [internalSource] => Array
+                (
+                    [type] => CREATED
+                    [id] => 66c9b7a5933ff4a8ff647640
+                    [apiVersion] => 2021-07-28
+                    [channel] => OAUTH
+                    [source] => INTEGRATION
+                )
+
+            [locationId] => CHKDrHHKzEg512t9UFk9
+            [lastActionDate] => 2024-09-05T13:10:35.261Z
+            [followers] => Array
+                (
+                )
+
+            [contact] => Array
+                (
+                    [id] => B1TKXSRuSbVGmKymjLNc
+                    [name] => Ashley preen test
+                    [companyName] => test1
+                    [email] => ashley.preen@georges-shed.com
+                    [phone] => +271323
+                    [tags] => Array
+                        (
+                        )
+
+                    [followers] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [traceId] => b3cfe41c-be80-4e20-9286-094b5271b4dc
+)
+
+2024-09-05 13:13:57 - GHL Opportunity Created: Array
+(
+    [opportunity] => Array
+        (
+            [id] => xkqO0xRoykqazM2D7CUO
+            [name] => Order ID: 286387 (05/09/24)
+            [monetaryValue] => 10199
+            [pipelineId] => UAYLwD4EEewOTHdn5d7t
+            [pipelineStageId] => 72c55e28-5624-4885-a02f-210f065dace0
+            [status] => open
+            [source] => https://rightair.local/wp-content/uploads/ywpi-pdf-invoice/Invoices/Invoice_286387.pdf
+            [lastStatusChangeAt] => 2024-09-05T13:13:57.402Z
+            [lastStageChangeAt] => 2024-09-05T13:13:57.402Z
+            [createdAt] => 2024-09-05T13:13:57.402Z
+            [updatedAt] => 2024-09-05T13:13:57.402Z
+            [contactId] => B1TKXSRuSbVGmKymjLNc
+            [isAttribute] => 
+            [internalSource] => Array
+                (
+                    [type] => CREATED
+                    [id] => 66c9b7a5933ff4a8ff647640
+                    [apiVersion] => 2021-07-28
+                    [channel] => OAUTH
+                    [source] => INTEGRATION
+                )
+
+            [locationId] => CHKDrHHKzEg512t9UFk9
+            [lastActionDate] => 2024-09-05T13:13:57.402Z
+            [followers] => Array
+                (
+                )
+
+            [contact] => Array
+                (
+                    [id] => B1TKXSRuSbVGmKymjLNc
+                    [name] => Ashley preen test
+                    [companyName] => test1
+                    [email] => ashley.preen@georges-shed.com
+                    [phone] => +271323
+                    [tags] => Array
+                        (
+                        )
+
+                    [followers] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [traceId] => 1078dd3a-091f-4442-a342-b85d0941b985
+)
+
+2024-09-05 13:14:02 - GHL Opportunity Created: Array
+(
+    [opportunity] => Array
+        (
+            [id] => xU5rEw26NRD5IBVMVOun
+            [name] => Order ID: 286387 (05/09/24)
+            [monetaryValue] => 10199
+            [pipelineId] => UAYLwD4EEewOTHdn5d7t
+            [pipelineStageId] => 72c55e28-5624-4885-a02f-210f065dace0
+            [status] => open
+            [source] => https://rightair.local/wp-content/uploads/ywpi-pdf-invoice/Invoices/Invoice_286387.pdf
+            [lastStatusChangeAt] => 2024-09-05T13:14:01.630Z
+            [lastStageChangeAt] => 2024-09-05T13:14:01.630Z
+            [createdAt] => 2024-09-05T13:14:01.630Z
+            [updatedAt] => 2024-09-05T13:14:01.630Z
+            [contactId] => B1TKXSRuSbVGmKymjLNc
+            [isAttribute] => 
+            [internalSource] => Array
+                (
+                    [type] => CREATED
+                    [id] => 66c9b7a5933ff4a8ff647640
+                    [apiVersion] => 2021-07-28
+                    [channel] => OAUTH
+                    [source] => INTEGRATION
+                )
+
+            [locationId] => CHKDrHHKzEg512t9UFk9
+            [lastActionDate] => 2024-09-05T13:14:01.630Z
+            [followers] => Array
+                (
+                )
+
+            [contact] => Array
+                (
+                    [id] => B1TKXSRuSbVGmKymjLNc
+                    [name] => Ashley preen test
+                    [companyName] => test1
+                    [email] => ashley.preen@georges-shed.com
+                    [phone] => +271323
+                    [tags] => Array
+                        (
+                        )
+
+                    [followers] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [traceId] => 7e298724-0873-441c-9a92-3fb708111d2f
+)
+
+2024-09-05 13:19:32 - GHL Opportunity Created: Array
+(
+    [opportunity] => Array
+        (
+            [id] => WouTmh15mxBUpegT2UfH
+            [name] => Order ID: 286388 (05/09/24)
+            [monetaryValue] => 6999
+            [pipelineId] => UAYLwD4EEewOTHdn5d7t
+            [pipelineStageId] => 72c55e28-5624-4885-a02f-210f065dace0
+            [status] => open
+            [source] => https://rightair.local/wp-content/uploads/ywpi-pdf-invoice/Invoices/Invoice_286388.pdf
+            [lastStatusChangeAt] => 2024-09-05T13:19:32.220Z
+            [lastStageChangeAt] => 2024-09-05T13:19:32.220Z
+            [createdAt] => 2024-09-05T13:19:32.220Z
+            [updatedAt] => 2024-09-05T13:19:32.220Z
+            [contactId] => B1TKXSRuSbVGmKymjLNc
+            [isAttribute] => 
+            [internalSource] => Array
+                (
+                    [type] => CREATED
+                    [id] => 66c9b7a5933ff4a8ff647640
+                    [apiVersion] => 2021-07-28
+                    [channel] => OAUTH
+                    [source] => INTEGRATION
+                )
+
+            [locationId] => CHKDrHHKzEg512t9UFk9
+            [lastActionDate] => 2024-09-05T13:19:32.220Z
+            [followers] => Array
+                (
+                )
+
+            [contact] => Array
+                (
+                    [id] => B1TKXSRuSbVGmKymjLNc
+                    [name] => Ashley preen test
+                    [companyName] => test1
+                    [email] => ashley.preen@georges-shed.com
+                    [phone] => +271323
+                    [tags] => Array
+                        (
+                        )
+
+                    [followers] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [traceId] => 79d4db30-336b-4ff2-b719-075e3494baa6
+)
+
+2024-09-05 13:19:35 - GHL Opportunity Created: Array
+(
+    [opportunity] => Array
+        (
+            [id] => am1gZk8ynkewhgHoYOdz
+            [name] => Order ID: 286388 (05/09/24)
+            [monetaryValue] => 6999
+            [pipelineId] => UAYLwD4EEewOTHdn5d7t
+            [pipelineStageId] => 72c55e28-5624-4885-a02f-210f065dace0
+            [status] => open
+            [source] => https://rightair.local/wp-content/uploads/ywpi-pdf-invoice/Invoices/Invoice_286388.pdf
+            [lastStatusChangeAt] => 2024-09-05T13:19:35.464Z
+            [lastStageChangeAt] => 2024-09-05T13:19:35.464Z
+            [createdAt] => 2024-09-05T13:19:35.464Z
+            [updatedAt] => 2024-09-05T13:19:35.464Z
+            [contactId] => B1TKXSRuSbVGmKymjLNc
+            [isAttribute] => 
+            [internalSource] => Array
+                (
+                    [type] => CREATED
+                    [id] => 66c9b7a5933ff4a8ff647640
+                    [apiVersion] => 2021-07-28
+                    [channel] => OAUTH
+                    [source] => INTEGRATION
+                )
+
+            [locationId] => CHKDrHHKzEg512t9UFk9
+            [lastActionDate] => 2024-09-05T13:19:35.464Z
+            [followers] => Array
+                (
+                )
+
+            [contact] => Array
+                (
+                    [id] => B1TKXSRuSbVGmKymjLNc
+                    [name] => Ashley preen test
+                    [companyName] => test1
+                    [email] => ashley.preen@georges-shed.com
+                    [phone] => +271323
+                    [tags] => Array
+                        (
+                        )
+
+                    [followers] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [traceId] => c6efa401-89e4-4272-b207-4d30a745cd1a
+)
+

@@ -188,7 +188,6 @@ function ghlconnect_create_ghl_opportunity( $order, $contactId, $locationId ) {
     ghlconnect_send_opportunity_to_ghl( $opportunity_data );
 }
 
-
 function ghlconnect_send_opportunity_to_ghl( $opportunity_data ) {
     $api_url = 'https://services.leadconnectorhq.com/opportunities/';
     
@@ -201,10 +200,17 @@ function ghlconnect_send_opportunity_to_ghl( $opportunity_data ) {
         'body' => json_encode( $opportunity_data ),
     ]);
 
+    // Define the log file path
+    $log_file = plugin_dir_path( __FILE__ ) . 'ghl_api_log.txt';
+
     if ( is_wp_error( $response ) ) {
-        error_log( 'GHL Opportunity Creation Error: ' . $response->get_error_message() );
+        $error_message = $response->get_error_message();
+        $log_data = date( 'Y-m-d H:i:s' ) . " - GHL Opportunity Creation Error: " . $error_message . "\n";
+        file_put_contents( $log_file, $log_data, FILE_APPEND );
     } else {
-        error_log( 'GHL Opportunity Created: ' . print_r( json_decode( $response['body'], true ), true ) );
+        $response_body = json_decode( wp_remote_retrieve_body( $response ), true );
+        $log_data = date( 'Y-m-d H:i:s' ) . " - GHL Opportunity Created: " . print_r( $response_body, true ) . "\n";
+        file_put_contents( $log_file, $log_data, FILE_APPEND );
     }
 }
 

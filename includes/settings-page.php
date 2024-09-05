@@ -58,51 +58,52 @@ if ( ! class_exists( 'GHLCONNECT_Settings_Page' ) ) {
 	
 	?>
 
-    <div class="ghl-container">
+<div class="ghl-container">
+    <div class="ghl-content">
+        <div class="ghl-tabs">
+            <h2 class="nav-tab-wrapper-vertical">
+                <a href="?page=ib-ghlconnect&tab=pro"
+                    class="nav-tab <?php if($tab==='pro'):?>nav-tab-active<?php endif; ?>">Upgrade to PRO</a>
+                <a href="?page=ib-ghlconnect"
+                    class="nav-tab <?php if($tab===null):?>nav-tab-active<?php endif; ?>">Connect with
+                    GHL</a>
+                <a href="?page=ib-ghlconnect&tab=option"
+                    class="nav-tab <?php if($tab==='option'):?>nav-tab-active<?php endif; ?>">Trigger Options</a>
+                <a href="?page=ib-ghlconnect&tab=sync"
+                    class="nav-tab <?php if($tab==='sync'):?>nav-tab-active<?php endif; ?>">Sync
+                    Users</a>
+                <a href="?page=ib-ghlconnect&tab=support"
+                    class="nav-tab <?php if($tab==='support'):?>nav-tab-active<?php endif; ?>">Help</a>
+                <a href="?page=ib-ghlconnect&tab=logging"
+                    class="nav-tab <?php if($tab==='logging'):?>nav-tab-active<?php endif; ?>">Logging</a>
+            </h2>
+        </div>
 
-        <div class="ghl-content">
-            <div class="ghl-tabs">
-                <h2 class="nav-tab-wrapper-vertical">
-
-                    <a href="?page=ib-ghlconnect&tab=pro"
-                        class="nav-tab <?php if($tab==='pro'):?>nav-tab-active<?php endif; ?>">Upgrade to PRO</a>
-                    <a href="?page=ib-ghlconnect"
-                        class="nav-tab <?php if($tab===null):?>nav-tab-active<?php endif; ?>">Connect with
-                        GHL</a>
-                    <a href="?page=ib-ghlconnect&tab=option"
-                        class="nav-tab <?php if($tab==='option'):?>nav-tab-active<?php endif; ?>">Trigger Options</a>
-                    <a href="?page=ib-ghlconnect&tab=sync"
-                        class="nav-tab <?php if($tab==='sync'):?>nav-tab-active<?php endif; ?>">Sync
-                        Users</a>
-                    <a href="?page=ib-ghlconnect&tab=support"
-                        class="nav-tab <?php if($tab==='support'):?>nav-tab-active<?php endif; ?>">Help</a>
-
-                </h2>
-            </div>
-
-
-            <div class="tab-content">
-                <?php switch($tab) :
-								case 'pro':
-									require_once plugin_dir_path( __FILE__ )."/ghl-connect-upgrade-to-premium.php"; 
-									break;
-								case 'option':
-									require_once plugin_dir_path( __FILE__ )."/woo-trigger-form.php";
-									break;
-								case 'sync':
-									require_once plugin_dir_path( __FILE__ )."/ghl-connect-sync-users.php";
-									break;
-											
-								case 'support':
-									require_once plugin_dir_path( __FILE__ )."/help-page.php";
-								break;
-								default:
-									require_once plugin_dir_path( __FILE__ )."/settings-form.php"; 
-									break;
-							endswitch; ?>
-            </div>
+        <div class="tab-content">
+            <?php switch($tab) :
+                case 'pro':
+                    require_once plugin_dir_path( __FILE__ )."/ghl-connect-upgrade-to-premium.php"; 
+                    break;
+                case 'option':
+                    require_once plugin_dir_path( __FILE__ )."/woo-trigger-form.php";
+                    break;
+                case 'sync':
+                    require_once plugin_dir_path( __FILE__ )."/ghl-connect-sync-users.php";
+                    break;
+                case 'support':
+                    require_once plugin_dir_path( __FILE__ )."/help-page.php";
+                    break;
+                case 'logging':
+                    require_once plugin_dir_path( __FILE__ )."/logging.php";
+                    break;
+                default:
+                    require_once plugin_dir_path( __FILE__ )."/settings-form.php"; 
+                    break;
+            endswitch; ?>
         </div>
     </div>
+</div>
+
 </div>
 
 <?php	
