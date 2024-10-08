@@ -657,3 +657,397 @@ Response:
     [traceId] => c6efa401-89e4-4272-b207-4d30a745cd1a
 )
 
+2024-09-05 18:02:46 - GHL Opportunity Created: Array
+(
+    [opportunity] => Array
+        (
+            [id] => B0OL3KAG5oEQ800VntTI
+            [name] => Order ID: 286390 (05/09/24)
+            [monetaryValue] => 9099
+            [pipelineId] => UAYLwD4EEewOTHdn5d7t
+            [pipelineStageId] => 72c55e28-5624-4885-a02f-210f065dace0
+            [status] => open
+            [source] => https://rightair.local/wp-content/uploads/ywpi-pdf-invoice/Invoices/Invoice_286390.pdf
+            [lastStatusChangeAt] => 2024-09-05T18:02:45.782Z
+            [lastStageChangeAt] => 2024-09-05T18:02:45.782Z
+            [createdAt] => 2024-09-05T18:02:45.782Z
+            [updatedAt] => 2024-09-05T18:02:45.782Z
+            [contactId] => SEsZanvkQu2m9O7vENO3
+            [isAttribute] => 
+            [internalSource] => Array
+                (
+                    [type] => CREATED
+                    [id] => 66c9b7a5933ff4a8ff647640
+                    [apiVersion] => 2021-07-28
+                    [channel] => OAUTH
+                    [source] => INTEGRATION
+                )
+
+            [locationId] => CHKDrHHKzEg512t9UFk9
+            [lastActionDate] => 2024-09-05T18:02:45.782Z
+            [followers] => Array
+                (
+                )
+
+            [contact] => Array
+                (
+                    [id] => SEsZanvkQu2m9O7vENO3
+                    [name] => Talha Shahid
+                    [companyName] => ivt
+                    [email] => talha.shahid@webhostingguru.io
+                    [phone] => +2732103239
+                    [tags] => Array
+                        (
+                        )
+
+                    [followers] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [traceId] => 74f83a68-e6a9-44ee-b3c4-d6ffc5cdc0dd
+)
+
+2024-09-05 18:02:50 - GHL Opportunity Created: Array
+(
+    [opportunity] => Array
+        (
+            [id] => iQiXLnKRAKBVeW1qH94s
+            [name] => Order ID: 286390 (05/09/24)
+            [monetaryValue] => 9099
+            [pipelineId] => UAYLwD4EEewOTHdn5d7t
+            [pipelineStageId] => 72c55e28-5624-4885-a02f-210f065dace0
+            [status] => open
+            [source] => https://rightair.local/wp-content/uploads/ywpi-pdf-invoice/Invoices/Invoice_286390.pdf
+            [lastStatusChangeAt] => 2024-09-05T18:02:49.835Z
+            [lastStageChangeAt] => 2024-09-05T18:02:49.835Z
+            [createdAt] => 2024-09-05T18:02:49.835Z
+            [updatedAt] => 2024-09-05T18:02:49.835Z
+            [contactId] => SEsZanvkQu2m9O7vENO3
+            [isAttribute] => 
+            [internalSource] => Array
+                (
+                    [type] => CREATED
+                    [id] => 66c9b7a5933ff4a8ff647640
+                    [apiVersion] => 2021-07-28
+                    [channel] => OAUTH
+                    [source] => INTEGRATION
+                )
+
+            [locationId] => CHKDrHHKzEg512t9UFk9
+            [lastActionDate] => 2024-09-05T18:02:49.835Z
+            [followers] => Array
+                (
+                )
+
+            [contact] => Array
+                (
+                    [id] => SEsZanvkQu2m9O7vENO3
+                    [name] => Talha Shahid
+                    [companyName] => ivt
+                    [email] => talha.shahid@webhostingguru.io
+                    [phone] => +2732103239
+                    [tags] => Array
+                        (
+                        )
+
+                    [followers] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [traceId] => 1c4475a7-a66d-4d40-96c7-e658e36ca31f
+)
+
+2024-09-05 18:05:44 - GHL Opportunity Created: Array
+(
+    [opportunity] => Array
+        (
+            [id] => vTQvKkBEaedZN2xtozat
+            [name] => Order ID: 286391 (05/09/24)
+            [monetaryValue] => 2469
+            [pipelineId] => UAYLwD4EEewOTHdn5d7t
+            [pipelineStageId] => 72c55e28-5624-4885-a02f-210f065dace0
+            [status] => open
+            [source] => https://rightair.local/wp-content/uploads/ywpi-pdf-invoice/Invoices/Invoice_286391.pdf
+            [lastStatusChangeAt] => 2024-09-05T18:05:43.691Z
+            [lastStageChangeAt] => 2024-09-05T18:05:43.692Z
+            [createdAt] => 2024-09-05T18:05:43.691Z
+            [updatedAt] => 2024-09-05T18:05:43.691Z
+            [contactId] => 4s8Ai1lsVi934osZT2Hi
+            [isAttribute] => 
+            [internalSource] => Array
+                (
+                    [type] => CREATED
+                    [id] => 66c9b7a5933ff4a8ff647640
+                    [apiVersion] => 2021-07-28
+                    [channel] => OAUTH
+                    [source] => INTEGRATION
+                )
+
+            [locationId] => CHKDrHHKzEg512t9UFk9
+            [lastActionDate] => 2024-09-05T18:05:43.692Z
+            [followers] => Array
+                (
+                )
+
+            [contact] => Array
+                (
+                    [id] => 4s8Ai1lsVi934osZT2Hi
+                    [name] => Talha Shahid
+                    [companyName] => ivt
+                    [email] => talha.shahid@webhostingguru.io
+                    [phone] => +2732103239
+                    [tags] => Array
+                        (
+                        )
+
+                    [followers] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [traceId] => cc5527f3-c53b-49df-8bf6-f0ec4e6cc9fe
+)
+
+2024-09-05 18:07:18 - GHL Opportunity Created: Array
+(
+    [opportunity] => Array
+        (
+            [id] => dN36R9EiVzZ2oRrSLEK5
+            [name] => Quote ID: 286392 (05/09/24)
+            [monetaryValue] => 10199
+            [pipelineId] => VC0ypLig0hdqvLVqyBzG
+            [pipelineStageId] => ec61d8ff-63bd-48f4-b6bc-15171d9e62b4
+            [status] => open
+            [source] => https://rightair.local/wp-content/uploads/yith_ywraq/2024/09/quote_286392.pdf
+            [lastStatusChangeAt] => 2024-09-05T18:07:18.321Z
+            [lastStageChangeAt] => 2024-09-05T18:07:18.321Z
+            [createdAt] => 2024-09-05T18:07:18.321Z
+            [updatedAt] => 2024-09-05T18:07:18.321Z
+            [contactId] => 4s8Ai1lsVi934osZT2Hi
+            [isAttribute] => 
+            [internalSource] => Array
+                (
+                    [type] => CREATED
+                    [id] => 66c9b7a5933ff4a8ff647640
+                    [apiVersion] => 2021-07-28
+                    [channel] => OAUTH
+                    [source] => INTEGRATION
+                )
+
+            [locationId] => CHKDrHHKzEg512t9UFk9
+            [lastActionDate] => 2024-09-05T18:07:18.321Z
+            [followers] => Array
+                (
+                )
+
+            [contact] => Array
+                (
+                    [id] => 4s8Ai1lsVi934osZT2Hi
+                    [name] => Talha Shahid
+                    [companyName] => ivt
+                    [email] => talha.shahid@webhostingguru.io
+                    [phone] => +2732103239
+                    [tags] => Array
+                        (
+                        )
+
+                    [followers] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [traceId] => 17df9ecc-acf6-413d-8622-74d1e792c556
+)
+
+2024-09-05 18:11:02 - GHL Opportunity Created: Array
+(
+    [opportunity] => Array
+        (
+            [id] => 0rNcqvUGNqotyTfl2K42
+            [name] => Order ID: 286393 (05/09/24)
+            [monetaryValue] => 10199
+            [pipelineId] => UAYLwD4EEewOTHdn5d7t
+            [pipelineStageId] => 72c55e28-5624-4885-a02f-210f065dace0
+            [status] => open
+            [source] => https://rightair.local/wp-content/uploads/ywpi-pdf-invoice/Invoices/Invoice_286393.pdf
+            [lastStatusChangeAt] => 2024-09-05T18:11:01.985Z
+            [lastStageChangeAt] => 2024-09-05T18:11:01.985Z
+            [createdAt] => 2024-09-05T18:11:01.985Z
+            [updatedAt] => 2024-09-05T18:11:01.985Z
+            [contactId] => 4s8Ai1lsVi934osZT2Hi
+            [isAttribute] => 
+            [internalSource] => Array
+                (
+                    [type] => CREATED
+                    [id] => 66c9b7a5933ff4a8ff647640
+                    [apiVersion] => 2021-07-28
+                    [channel] => OAUTH
+                    [source] => INTEGRATION
+                )
+
+            [locationId] => CHKDrHHKzEg512t9UFk9
+            [lastActionDate] => 2024-09-05T18:11:01.985Z
+            [followers] => Array
+                (
+                )
+
+            [contact] => Array
+                (
+                    [id] => 4s8Ai1lsVi934osZT2Hi
+                    [name] => Talha Shahid
+                    [companyName] => ivt
+                    [email] => talha.shahid@webhostingguru.io
+                    [phone] => +2732103239
+                    [tags] => Array
+                        (
+                        )
+
+                    [followers] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [traceId] => 1e61def9-efc1-49cc-a883-a80aafc016da
+)
+
+2024-09-05 18:13:18 - GHL Opportunity Created: Array
+(
+    [opportunity] => Array
+        (
+            [id] => EdBPt7w05Q2rCbFRU9Df
+            [name] => Quote ID: 286394 (05/09/24)
+            [monetaryValue] => 9419
+            [pipelineId] => VC0ypLig0hdqvLVqyBzG
+            [pipelineStageId] => ec61d8ff-63bd-48f4-b6bc-15171d9e62b4
+            [status] => open
+            [source] => https://rightair.local/wp-content/uploads/yith_ywraq/2024/09/quote_286394.pdf
+            [lastStatusChangeAt] => 2024-09-05T18:13:17.458Z
+            [lastStageChangeAt] => 2024-09-05T18:13:17.458Z
+            [createdAt] => 2024-09-05T18:13:17.458Z
+            [updatedAt] => 2024-09-05T18:13:17.458Z
+            [contactId] => 4s8Ai1lsVi934osZT2Hi
+            [isAttribute] => 
+            [internalSource] => Array
+                (
+                    [type] => CREATED
+                    [id] => 66c9b7a5933ff4a8ff647640
+                    [apiVersion] => 2021-07-28
+                    [channel] => OAUTH
+                    [source] => INTEGRATION
+                )
+
+            [locationId] => CHKDrHHKzEg512t9UFk9
+            [lastActionDate] => 2024-09-05T18:13:17.458Z
+            [followers] => Array
+                (
+                )
+
+            [contact] => Array
+                (
+                    [id] => 4s8Ai1lsVi934osZT2Hi
+                    [name] => Talha Shahid
+                    [companyName] => ivt
+                    [email] => talha.shahid@webhostingguru.io
+                    [phone] => +2732103239
+                    [tags] => Array
+                        (
+                        )
+
+                    [followers] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [traceId] => e1407cc1-732a-4068-b935-5c4aef87e908
+)
+
+2024-09-06 21:29:24 - GHL Opportunity Created: Array
+(
+    [opportunity] => Array
+        (
+            [id] => 9jGwdF28jQqmWkPXsyut
+            [name] => Quote ID: 286395 (06/09/24)
+            [monetaryValue] => 9099
+            [pipelineId] => VC0ypLig0hdqvLVqyBzG
+            [pipelineStageId] => ec61d8ff-63bd-48f4-b6bc-15171d9e62b4
+            [status] => open
+            [source] => https://rightair.local/wp-content/uploads/yith_ywraq/2024/09/quote_286395.pdf
+            [lastStatusChangeAt] => 2024-09-06T21:29:23.791Z
+            [lastStageChangeAt] => 2024-09-06T21:29:23.791Z
+            [createdAt] => 2024-09-06T21:29:23.791Z
+            [updatedAt] => 2024-09-06T21:29:23.791Z
+            [contactId] => 4s8Ai1lsVi934osZT2Hi
+            [isAttribute] => 
+            [internalSource] => Array
+                (
+                    [type] => CREATED
+                    [id] => 66c9b7a5933ff4a8ff647640
+                    [apiVersion] => 2021-07-28
+                    [channel] => OAUTH
+                    [source] => INTEGRATION
+                )
+
+            [locationId] => CHKDrHHKzEg512t9UFk9
+            [lastActionDate] => 2024-09-06T21:29:23.791Z
+            [followers] => Array
+                (
+                )
+
+            [contact] => Array
+                (
+                    [id] => 4s8Ai1lsVi934osZT2Hi
+                    [name] => Talha Shahid
+                    [companyName] => Talha Solution
+                    [email] => talha.shahid@webhostingguru.io
+                    [phone] => +273435465
+                    [tags] => Array
+                        (
+                        )
+
+                    [followers] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [traceId] => 8d002298-336b-44cb-91bf-b20719fc11bb
+)
+
+2024-09-06 21:32:25 - GHL Opportunity Created: Array
+(
+    [message] => The opportunity contact is deleted
+    [error] => Bad Request
+    [statusCode] => 400
+    [traceId] => 506518c5-a4ed-4592-a5de-fe13eec4f5e4
+)
+
+2024-09-06 21:39:02 - GHL Opportunity Created: Array
+(
+    [message] => The opportunity contact is deleted
+    [error] => Bad Request
+    [statusCode] => 400
+    [traceId] => 3b583092-e7cb-49a1-aa8b-480198a60364
+)
+
